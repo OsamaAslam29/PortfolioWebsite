@@ -24,7 +24,14 @@ h6 {
 ::-webkit-scrollbar {
   display: none;
 }
- body{
+
+body {
   background-color: black;
   font-family: "Poppins", sans-serif;
- }
+}
+
+img {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+}
