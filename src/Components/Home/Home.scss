@@ -7,27 +7,35 @@
     .bio_data {
         width: 70%;
         border: 1px solid red;
+        @media screen and (max-width:"1120px") {
+            width: 100%;
+
+        }
     }
+
     .bio_animation {
         width: 30%;
         position: relative;
         margin-top: -60px;
+
         @media screen and (max-width:"1120px") {
-                display: none;
-            
+            display: none;
+
         }
     }
-    .black_box{
+
+    .black_box {
         height: 10%;
         width: 50%;
         background-color: black;
         position: absolute;
         bottom: 0;
         right: 0;
+
         @media screen and (max-width:"1400px") {
             width: 38%;
         }
-       
+
     }
 
 
