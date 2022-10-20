@@ -10,8 +10,12 @@
     }
     .bio_animation {
         width: 30%;
-        border: 1px solid red;
         position: relative;
+        margin-top: -60px;
+        @media screen and (max-width:"1120px") {
+                display: none;
+            
+        }
     }
     .black_box{
         height: 10%;
@@ -23,6 +27,7 @@
         @media screen and (max-width:"1400px") {
             width: 38%;
         }
+       
     }
 
 
