@@ -1,10 +1,11 @@
 import React from 'react'
 import './Navbar.scss'
-
 const Navbar = () => {
   return (
     <div className='nav_container'>
-      <div className="logo">Sufyan</div>
+      <div className="logo">
+        <h1>Sufyan</h1>
+      </div>
       <div className="menu">
         <a href="#">Home</a>
         <a href="#">About</a>

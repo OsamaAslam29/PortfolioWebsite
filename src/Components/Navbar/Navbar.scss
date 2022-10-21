@@ -1,5 +1,4 @@
 .nav_container{
-    height: 85px;
     width: 100%;
     padding: 0 50px;
     display: flex;
@@ -7,6 +6,7 @@
     justify-content: space-between; 
     .logo{
         color: white;
+        font-size: 35px;
     }
     .menu a{
         color: white;
