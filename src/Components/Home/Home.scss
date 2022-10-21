@@ -12,39 +12,51 @@
         gap: .5rem;
         align-items: center;
         flex-direction: column;
-       .name{
+
+        .name {
             font-size: 38px;
             color: #bd3b22;
             margin-bottom: -10px;
         }
-        .bio{
+
+        .bio {
             font-size: 30px;
 
         }
-        h5{
+
+        h5 {
 
             font-size: 17px;
             margin-bottom: -12px;
         }
-        p{
+
+        p {
             font-size: 20px;
             text-align: center;
         }
 
         @media screen and (max-width:"1120px") {
             width: 100%;
-           
+
 
         }
-        .home_btns{
+
+        .home_btns {
             display: flex;
             gap: 1rem;
             margin-top: 1rem;
-            .touch{
+
+            .MuiButtonBase-root:hover {
+                border: 1px solid #bd3b22;
+                background-color: rgba(189, 59, 34, 0.04);
+            }
+
+            .touch {
                 color: #bd3b22;
                 opacity: 0.9;
                 border: 1px solid rgba(189, 59, 34, 0.5);
-                &:hover{
+
+                &:hover {
                     opacity: 1;
                 }
             }
