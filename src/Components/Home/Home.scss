@@ -1,15 +1,53 @@
 .home_container {
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     padding: 0px 50px;
     display: flex;
 
     .bio_data {
+        padding: 0 3rem 0 0;
+        padding-top: 5rem;
         width: 70%;
-        border: 1px solid red;
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+        flex-direction: column;
+       .name{
+            font-size: 38px;
+            color: #bd3b22;
+            margin-bottom: -10px;
+        }
+        .bio{
+            font-size: 30px;
+
+        }
+        h5{
+
+            font-size: 17px;
+            margin-bottom: -12px;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+
         @media screen and (max-width:"1120px") {
             width: 100%;
+           
 
+        }
+        .home_btns{
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            .touch{
+                color: #bd3b22;
+                opacity: 0.9;
+                border: 1px solid rgba(189, 59, 34, 0.5);
+                &:hover{
+                    opacity: 1;
+                }
+            }
         }
     }
 
