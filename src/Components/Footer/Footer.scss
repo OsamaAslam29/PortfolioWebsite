@@ -1,0 +1,16 @@
+.footer_container{
+    height: 10vh;
+    width: 100%;
+    padding: 0 50px;
+    .divider{
+        border-bottom: 1px solid #bd3b22;
+    }
+    .flex_footer{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        .footer_info{
+            font-size: 20px;
+        }
+    }
+}
