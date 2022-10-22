@@ -1,0 +1,24 @@
+.Experience_container{
+    height: 100vh;
+    width: 100%;
+    padding: 0 50px;
+    .divider_line{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .left_border{
+            width: 20%;
+            border-bottom: 1px solid #bd3b22;
+        }
+        .content{
+            color: white;
+            font-size: 38px;
+            font-weight: bold;
+
+        }
+        .right_border{
+            width: 80%;
+            border-bottom: 1px solid #bd3b22;
+        }
+    }
+}
