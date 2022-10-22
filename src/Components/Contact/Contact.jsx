@@ -1,9 +1,8 @@
 import React from 'react'
-import './About.scss'
 
-const About = () => {
+const Contact = () => {
   return (
-    <div className='about_container'>
+    <div className='contact_container'>
       <div className="divider_line">
         <div className="left_border"></div>
         <div className="content">About</div>
@@ -13,4 +12,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Contact
