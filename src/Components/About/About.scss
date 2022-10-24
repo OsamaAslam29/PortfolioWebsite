@@ -21,4 +21,24 @@
             border-bottom: 1px solid #bd3b22;
         }
     }
+    
+}
+.flex_about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .skils_container{
+        width: 100%;
+        border: 2px solid rgb(175, 19, 19);
+    }
+    .image_container{
+        border: 2px solid rgb(16, 236, 90);
+            img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+
+    }
 }
