@@ -11,6 +11,11 @@
   scroll-behavior: smooth;
 }
 
+:root{
+
+  --primary-color:#bd3b22;
+}
+
 h1,
 h2,
 h3,
@@ -31,8 +36,38 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-img {
+/* ********** Progress Bar ********** */
+.MuiLinearProgress-root{
+  height: 10px !important;
+}
+.MuiLinearProgress-root{
+  position: relative;
+  overflow: hidden;
   display: block;
-  object-fit: contain;
+  height: 15px;
+  z-index: 0;
+  background-color: transparent;
+}
+.css-qhoknl-MuiLinearProgress-bar1{
   width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  -webkit-transition: -webkit-transform .4s linear;
+  transition: transform .4s linear;
+  transform-origin: left;
+  background-color: var(--primary-color) !important;
+  z-index: 1;
+}
+.MuiLinearProgress-bar2 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  -webkit-transition: -webkit-transform .4s linear;
+  transition: transform .4s linear;
+  transform-origin: left;
+  background-color: white;
 }
