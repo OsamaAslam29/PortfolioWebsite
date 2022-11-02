@@ -37,6 +37,7 @@ body {
 }
 
 /* ********** Progress Bar ********** */
+
 .MuiLinearProgress-root{
   height: 10px !important;
 }

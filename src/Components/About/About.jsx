@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.scss'
-import me from '../../Assets/me.png'
+import me from '../../Assets/me.jpg'
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
 
