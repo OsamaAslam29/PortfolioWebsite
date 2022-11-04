@@ -2,6 +2,7 @@ import React from 'react'
 import Flip from 'react-reveal/Flip';
 import './Home.scss'
 import { Button } from '@mui/material';
+import CV from "../../Assets/cv.pdf"
 
 const Home = () => {
     return (
@@ -17,7 +18,9 @@ const Home = () => {
                 </p>
                 <div className="home_btns">
                     <Button className="touch" variant="outlined">Get in touch</Button>
-                    <Button className="touch" variant="Download">Download CV</Button>
+
+                    <Button className="touch" onClick={()=> window.location.href = CV} variant="Download">Download CV</Button>
+
                 </div>
             </div>
             <div className="bio_animation">
