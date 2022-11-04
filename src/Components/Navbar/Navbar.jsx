@@ -4,8 +4,11 @@ import Fade from 'react-reveal/Fade';
 import MenuIcon from '@mui/icons-material/Menu';
 import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import HomeIcon from '@mui/icons-material/Home';
-
+// import HomeIcon from '@mui/icons-material/Home';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import PostAddOutlinedIcon from '@mui/icons-material/PostAddOutlined';
+import AddIcCallOutlinedIcon from '@mui/icons-material/AddIcCallOutlined';
 
 const Navbar = () => {
 
@@ -40,23 +43,23 @@ const Navbar = () => {
         </div>
         <div className="nav">
           <div className="mobile_icon" to="/Home">
-            <HomeIcon />
+            <HomeOutlinedIcon className='icon_size' />
             <div>Home</div>
           </div>
           <div className="mobile_icon" to="/Home">
-            <HomeIcon />
-            <div>About</div>
+            <PermIdentityOutlinedIcon className='icon_size' />
+            <div style={{paddingTop:"6px"}}>About</div>
           </div>  
           <div className="mobile_icon" to="/Home">
-            <HomeIcon />
-            <div>Experience</div>
+            <SettingsOutlinedIcon className='icon_size' />
+            <div>Services</div>
           </div>
           <div className="mobile_icon" to="/Home">
-            <HomeIcon />
+            <PostAddOutlinedIcon className='icon_size' />
             <div>Projects</div>
           </div>
           <div className="mobile_icon" to="/Home">
-            <HomeIcon />
+            <AddIcCallOutlinedIcon className='icon_size'/>
             <div>Contact Me</div>
           </div>
         </div>
@@ -75,7 +78,7 @@ const Navbar = () => {
           <div className="web_menu">
             <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Experience</a>
+            <a href="#">Services</a>
             <a href="#">Projects</a>
             <a href="#">Contact Me</a>
           </div>

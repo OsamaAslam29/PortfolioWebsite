@@ -42,6 +42,7 @@
       }
 
       a {
+        font-size: 18px;
         color: white;
         padding: 0px 20px;
       }
@@ -67,7 +68,7 @@
   color: white;
   position: relative;
   .logo{
-    padding: 20px 20px;
+    padding: 40px 20px;
   }
   .nav{
     display: flex;
@@ -75,12 +76,16 @@
     padding-left: 3rem;
     gap: 3rem;
     border-top: 1px solid white;
-    padding-top: 4rem;
+    padding-top: 5rem;
     .mobile_icon{
       display: flex;
-      gap: .4rem;
+      gap: .5rem;
+      align-items: center;
+      .icon_size{
+        font-size: 30px;
+      }
       div{
-        font-size: 18px;
+        font-size: 20px;
       }
     }
   }
