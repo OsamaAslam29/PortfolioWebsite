@@ -4,14 +4,14 @@ import Fade from 'react-reveal/Fade';
 import MenuIcon from '@mui/icons-material/Menu';
 import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import CloseIcon from '@mui/icons-material/Close';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 const Navbar = () => {
 
   const [state, setState] = React.useState({
 
-    right: false,
+    left: false,
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -34,12 +34,32 @@ const Navbar = () => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <div className='main'>
-        <div className="close" ><CloseIcon /></div>
-        <div className="nav" to="/Home">Home</div>
-        <div className="nav" to="#">About Me</div>
-        <div className="nav" to="/Team">Resume</div>
-        <div className="nav" to="/Testimonial">Testimonial</div>
-        <div className="nav" to="/Contact">Contact Me</div>
+        {/* <div className="close" ><CloseIcon /></div> */}
+        <div className="logo">
+          <h1>Sufyan</h1>
+        </div>
+        <div className="nav">
+          <div className="mobile_icon" to="/Home">
+            <HomeIcon />
+            <div>Home</div>
+          </div>
+          <div className="mobile_icon" to="/Home">
+            <HomeIcon />
+            <div>About</div>
+          </div>  
+          <div className="mobile_icon" to="/Home">
+            <HomeIcon />
+            <div>Experience</div>
+          </div>
+          <div className="mobile_icon" to="/Home">
+            <HomeIcon />
+            <div>Projects</div>
+          </div>
+          <div className="mobile_icon" to="/Home">
+            <HomeIcon />
+            <div>Contact Me</div>
+          </div>
+        </div>
       </div>
 
     </Box>
@@ -61,11 +81,11 @@ const Navbar = () => {
           </div>
           <div className="mobile_menu">
             <div className='ham_none'>
-              {['right'].map((anchor) => (
+              {['left'].map((anchor) => (
                 <React.Fragment key={anchor}>
 
                   <div className="menu">
-                    <MenuIcon onClick={toggleDrawer(anchor, true)} />
+                    <MenuIcon onClick={toggleDrawer(anchor, true)} style={{fontSize:"35px"}} />
                   </div>
                   <SwipeableDrawer
                     anchor={anchor}

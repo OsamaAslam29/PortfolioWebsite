@@ -2,7 +2,7 @@
   width: 100%;
   padding: 0 50px;
   display: flex;
-  background-color: yellow;
+  background-color: var(--primary-color);
   align-items: center;
   justify-content: space-between;
 
@@ -59,4 +59,29 @@
   }
 
 
+}
+// ************ Mobile Menu *******
+.main{
+  height: 100vh;
+  background-color: var(--primary-color);
+  color: white;
+  position: relative;
+  .logo{
+    padding: 20px 20px;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    gap: 3rem;
+    border-top: 1px solid white;
+    padding-top: 4rem;
+    .mobile_icon{
+      display: flex;
+      gap: .4rem;
+      div{
+        font-size: 18px;
+      }
+    }
+  }
 }
