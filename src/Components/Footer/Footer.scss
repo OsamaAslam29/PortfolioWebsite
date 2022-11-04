@@ -2,6 +2,16 @@
     height: 10vh;
     width: 100%;
     padding: 0 50px;
+    @media screen and (max-width:"990px") {
+        padding: 0 40px;
+      }
+      @media screen and (max-width:"790px") {
+        padding: 0 30px;
+      }
+    
+      @media screen and (max-width:"600px") {
+        padding: 5px 20px;
+      }
     .divider{
         border-bottom: 1px solid #bd3b22;
     }
@@ -11,6 +21,15 @@
         justify-content: space-between;
         .footer_info{
             font-size: 20px;
+            @media screen and (max-width:"990px") {
+                font-size: 17px;
+              }
+            @media screen and (max-width:"790px") {
+                font-size: 14px;
+              }
+            @media screen and (max-width:"600px") {
+                font-size: 10px;
+              }
         }
     }
 }
