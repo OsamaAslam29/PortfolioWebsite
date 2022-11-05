@@ -3,19 +3,24 @@
     width: 100%;
     padding: 0px 50px;
     display: flex;
+
     @media screen and (max-width:"1120px") {
         height: 70vh;
         align-items: center;
     }
+
     @media screen and (max-width:"990px") {
         padding: 0 40px;
-      }
+    }
+
     @media screen and (max-width:"790px") {
         padding: 0 30px;
-      }
+    }
+
     @media screen and (max-width:"600px") {
         padding: 0 20px;
-      }
+    }
+
     .bio_data {
         padding: 0 3rem 0 0;
         padding-top: 6rem;
@@ -24,6 +29,7 @@
         gap: .5rem;
         align-items: center;
         flex-direction: column;
+
         @media screen and (max-width:"1120px") {
             padding: 0;
         }
@@ -32,22 +38,26 @@
             font-size: 38px;
             color: #bd3b22;
             margin-bottom: -10px;
+
             @media screen and (max-width:"790px") {
                 font-size: 30px;
-              }
+            }
+
             @media screen and (max-width:"600px") {
                 font-size: 25px;
-              }
+            }
         }
 
         .bio {
             font-size: 30px;
+
             @media screen and (max-width:"790px") {
                 font-size: 25px;
-              }
+            }
+
             @media screen and (max-width:"600px") {
                 font-size: 20px;
-              }
+            }
 
         }
 
@@ -55,23 +65,27 @@
 
             font-size: 17px;
             margin-bottom: -12px;
+
             @media screen and (max-width:"790px") {
                 font-size: 15px;
-              }
+            }
+
             @media screen and (max-width:"790px") {
                 font-size: 13px;
-              }
+            }
         }
 
         p {
             font-size: 20px;
             text-align: center;
+
             @media screen and (max-width:"790px") {
                 font-size: 17px;
-              }
+            }
+
             @media screen and (max-width:"600px") {
                 font-size: 15px;
-              }
+            }
         }
 
         @media screen and (max-width:"1120px") {
@@ -97,8 +111,9 @@
                 &:hover {
                     opacity: 1;
                 }
-            
-                
+
+
+            }
         }
     }
 
@@ -109,26 +124,21 @@
 
         @media screen and (max-width:"1120px") {
             display: none;
+        }
 
-            
+        .black_box {
+            height: 10%;
+            width: 50%;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+            @media screen and (max-width:"1400px") {
+                width: 38%;
+            }
+
         }
     }
 
-    .black_box {
-        height: 10%;
-        width: 50%;
-        background-color: black;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-
-        @media screen and (max-width:"1400px") {
-            width: 38%;
-        }
-
-    }
-
-
-    
-}
 }

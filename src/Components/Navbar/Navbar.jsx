@@ -31,13 +31,12 @@ const Navbar = () => {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 265 }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <div className='main'>
-        {/* <div className="close" ><CloseIcon /></div> */}
         <div className="logo">
           <h1>Sufyan</h1>
         </div>
